@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Home-Made Popcorn",
+        "description":"A crunchy snack for that munchy attack.",
+        "instructions":"1. Pour Sunflower oil into pan to thickly cover the bottom. 2. Put in 3 kernels of popcorn. 3. Turn flame on to medium heat. 4. Wait until you hear the kernels exploding into their post-kernel state, then add the rest of the unpopped popcorn now that the oil is hot enough to pop them. 5. When explosions cease, turn off flame, remove from pot into bowl, and add salt to taste.",
+        "ingredients":"1/2 cup popcorn kernels, 1/4 cup sunflower oil, salt"
+
+    },
+    {
+        "title":"Magic Cakes",
+        "description":"Magical cakes that satisfy munchy outbreaks.",
+        "instructions":"1. Find a wizard 2. Ask them to conjure up some magic cakes 3. Say 'Thank You'",
+        "ingredients":"Magic"
+
+    },
+    {
+        "title":"Salmon Sushi",
+        "description":"Yummy Salmon to cure your famine",
+        "instructions":"1. Go to Alaska 2. Catch a Salmon 3. Kill the Salmon 4. Fillet it 5. Slice the meat 6. Eat it",
+        "ingredients":"Alaskan Salmon, a whole lotta effort"
+
+    }
+    {
+        "title":"I'm not going to do it.",
+        "description":"No I said I'm going to do it.",
+        "instructions":"*Giggles*",
+        "ingredients":"Hm? I didn't giggle!"
+
+    }
+]
