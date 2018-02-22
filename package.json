@@ -1,0 +1,27 @@
+{
+  "name": "munch-ease",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahAurand/Munch-Ease.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahAurand/Munch-Ease/issues"
+  },
+  "homepage": "https://github.com/HannahAurand/Munch-Ease#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "method-override": "^2.3.10",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.0.6"
+  }
+}
