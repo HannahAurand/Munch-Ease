@@ -11,10 +11,10 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     Recipe.create({
-        title: String,
-        description: String,
-        instructions: String,
-        ingredients: String
+        title: req.body.title,
+        description: req.body.description,
+        instructions: req.body.instructions,
+        ingredients: req.body.ingredients
     }).then(recipe => {
         res.redirect('/recipes')
     })
