@@ -21,10 +21,10 @@
 
     }
     {
-        "title":"I'm not going to do it.",
-        "description":"No I said I'm going to do it.",
-        "instructions":"*Giggles*",
-        "ingredients":"Hm? I didn't giggle!"
-
+        "title":"Ice-Cream from Space",
+        "description":"Ice-cream from space",
+        "instructions":"1. Get a rocket ship 2. Go to space 3. Befriend aliens 4. Ask for their ice-cream 5. Say 'Thank You'",
+        "ingredients":"Stuff from space"
+        
     }
 ]

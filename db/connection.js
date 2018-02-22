@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 //"mongodv://localhost is required in the connection string"
 //todo is the name of the mongo database. call it something that makes sense
 //database names and collections are never capitalized
-mongoose.connect("mongodb://localhost/recipe")
+mongoose.connect("mongodb://localhost/recipes")
 
 //using promises native to javascript; give mongoose a promise library to use
 mongoose.Promise = Promise
