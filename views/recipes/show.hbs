@@ -1,6 +1,7 @@
 <h2>{{this.title}}</h2>
-<p>status: {{this.complete}}</p>
-
+<p>{{this.description}}</p>
+<p>{{this.instructions}}</p>
+<p>{{this.ingredients}}</p>
 <a href='/recipes/edit/{{id}}'>Edit</a>
 
 <form action="/recipes/{{id}}?_method=delete" method="post">
