@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 //set up connection (link this application to mongo)
 //using a connection string
 //"mongodv://localhost is required in the connection string"
-//todo is the name of the mongo database. call it something that makes sense
+//recipes is the name of the mongo database. call it something that makes sense
 //database names and collections are never capitalized
 mongoose.connect("mongodb://localhost/recipes")
 

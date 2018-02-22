@@ -44,6 +44,7 @@ router.delete('/:id', (req, res) => {
       })
   })
 
+// '/recipes/:id'
 router.get('/:id', (req, res) => {
     Recipe.findOne({_id: req.params.id})
     .then(recipe => {
