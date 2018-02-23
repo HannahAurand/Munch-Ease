@@ -3,11 +3,18 @@ const app = express()
 const hbs = require('hbs')
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
+//passport stuff
+const passport = require('passport')
 const recipesController = require('./controllers/recipes')
 
 app.set('view engine', 'hbs')
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(methodOverride('_method'))
+
+//Passport stuff
+require('./config/passport')(passport)
+  app.use(passport.initialize())
+  app.use(passport.session())
 
 // '/'
 app.get('/', (req, res) => {
