@@ -21,6 +21,14 @@ var User            = require('../models/user');
 	newUser.local.email    = email;
 	newUser.local.password = newUser.encrypt(password);
 
+    passport.use('local-login', new LocalStrategy({
+        usernameField : 'email',
+        passwordField : 'password',
+        passReqToCallback : true
+      }, function(req, email, password, callback) {
+    
+      }));
+
 	newUser.save(function(err) {
 	  if (err) throw err;
 	  return callback(null, newUser);
@@ -28,3 +36,13 @@ var User            = require('../models/user');
       }
     });
   }));
+
+  passport.serializeUser(function(user, callback) {
+    callback(null, user.id)
+  })
+
+  passport.deserializeUser(function(id, callback) {
+    User.findById(id, function(err, user) {
+        callback(err, user)
+    })
+  })

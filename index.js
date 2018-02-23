@@ -15,6 +15,9 @@ app.use(methodOverride('_method'))
 require('./config/passport')(passport)
   app.use(passport.initialize())
   app.use(passport.session())
+  
+//requiring flash
+req.flash('signupMessage', 'This email is already used.')
 
 // '/'
 app.get('/', (req, res) => {
